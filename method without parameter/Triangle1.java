@@ -1,0 +1,19 @@
+class  Triangle1
+{
+	 static double area()
+	{
+		 int b,h;
+		 b=10;
+		 h=20;
+		 double res=0.5*b*h;
+		 System.out.println("area of triangle is= " +res);
+		 return 0.1d;
+	}
+
+	public static void main(String args[]) 
+	{
+		area();
+		
+
+	}
+}
